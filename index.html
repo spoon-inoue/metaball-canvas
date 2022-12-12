@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/metaball-canvas/meta/vite.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Vite + TS</title>
+		
+		
+		
+		<script type="module" crossorigin src="/metaball-canvas/assets/home.8c335ddb.js"></script>
+		<link rel="stylesheet" href="/metaball-canvas/assets/index.b0a103aa.css">
+	</head>
+	<body>
+		<main>
+			<svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+				<defs>
+					<filter id="goo">
+						<feGaussianBlur in="SourceGraphic" stdDeviation="15" result="blur" />
+						<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 60 -9" />
+					</filter>
+				</defs>
+			</svg>
+			<canvas class="canvas"></canvas>
+			<div class="section"></div>
+		</main>
+	</body>
+</html>
