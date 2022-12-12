@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/meta/vite.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Vite + TS</title>
+		<link rel="stylesheet" href="/styles/base.scss" />
+		<link rel="stylesheet" href="/home/index.scss" />
+		<script src="/home/index.ts" type="module" defer></script>
+	</head>
+	<body>
+		<main>
+			<svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+				<defs>
+					<filter id="goo">
+						<feGaussianBlur in="SourceGraphic" stdDeviation="15" result="blur" />
+						<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 60 -9" />
+					</filter>
+				</defs>
+			</svg>
+			<canvas class="canvas"></canvas>
+			<div class="section"></div>
+		</main>
+	</body>
+</html>
